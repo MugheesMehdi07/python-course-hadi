@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    <h1>Products</h1>
+    <h2>Add Product</h2>
+    <form id="addProductForm">
+        Name: <input type="text" id="addName"><br>
+        Price: <input type="number" step="0.01" id="addPrice"><br>
+        <button type="submit">Add Product</button>
+    </form>
+    <h2>Products List</h2>
+    <ul id="productList"></ul>
+
+    <!-- Hidden form for updating products -->
+    <div id="updateProductForm" style="display:none;">
+        <h2>Update Product</h2>
+        Name: <input type="text" id="updateName"><br>
+        Price: <input type="number" step="0.01" id="updatePrice"><br>
+        <button type="button" onclick="updateProduct()">Update Product</button>
+    </div>
+
+    <script src="products.js"></script>
+</body>
+</html>
