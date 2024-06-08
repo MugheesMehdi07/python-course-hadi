@@ -1,9 +1,0 @@
-This is written to the file.
-Here is another line of text.
-Python file handling is easy!
-Appending more text to the file.
-This will appear after the existing content.
-Appending more text to the file.
-This will appear after the existing content.
-Appending more text to the file.
-This will appear after the existing content.
